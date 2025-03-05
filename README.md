@@ -90,7 +90,7 @@ Checks if a character is a non-terminal.
 📜 License
 📖 This project is open-source and free to use for educational purposes.
 
-👨‍💻 Author: Developed by [Your Name] 🚀
+👨‍💻 Author: Developed by Vidya Patil 🚀
 
 Let me know if you want any further changes! 
 
