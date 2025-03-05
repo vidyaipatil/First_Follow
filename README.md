@@ -1,62 +1,75 @@
 ✨ First_Follow Java Program ✨
+<br>
 📌 Introduction
+<br>
 The First_Follow program is a Java-based implementation for computing the First and Follow sets of a given grammar. This program helps in constructing parsing tables for syntax analysis in compiler design.
-
+<br>
 🚀 Features
+<br>
 ✔️ Accepts a user-defined grammar.
+<br>
 ✔️ Computes the First and Follow sets for a given non-terminal.
+<br>
 ✔️ Identifies terminals and non-terminals from user input.
+<br>
 
 📋 Prerequisites
+<br>
 📌 Java Development Kit (JDK) installed.
+<br>
 📌 Basic understanding of compiler design concepts.
+<br>
 
 🛠 How to Run the Program
+<br>
 1️⃣ Compile the Java program:
+<br>
 
 
 javac First_Follow.java
+<br>
 2️⃣ Run the compiled Java class:
+<br>
 
-sh
-Copy
-Edit
+
 java First_Follow
+<br>
 🔢 Input Format
-🔹 The number of grammar rules.
-🔹 Grammar rules (one per line in A -> α | β format).
-🔹 Number of terminals and non-terminals.
-🔹 List of terminals and non-terminals.
+
+<br>
+🔹 The number of grammar rules.<br>
+🔹 Grammar rules (one per line in A -> α | β format).<br>
+🔹 Number of terminals and non-terminals.<br>
+🔹 List of terminals and non-terminals.<br>
 🔹 The non-terminal for which First and Follow sets are to be calculated.
+<br>
 
 📌 Sample Input
-mathematica
-Copy
-Edit
-Enter the number of lines in the grammar:
-3
-E -> TX
-X -> +TX | ε
-T -> FY
-Enter the number of non-terminals in the grammar:
-3
-Enter the number of terminals in the grammar:
-3
-Enter the terminals one by one:
-+ * ( )
-Enter the non-terminals one by one:
-E X T
-Enter the non-terminal whose first and follow you want to calculate:
-E
-📌 Sample Output
-csharp
-Copy
-Edit
+<br>
+Enter the number of lines in the grammar:<br>
+3<br>
+E -> TX<br>
+X -> +TX | ε<br>
+T -> FY<br>
+Enter the number of non-terminals in the grammar:<br>
+3<br>
+Enter the number of terminals in the grammar:<br>
+<!-- Enter the number of terminals in the grammar: -->
+3<br>
+Enter the terminals one by one:<br>
++ * ( )<br>
+Enter the non-terminals one by one:<br>
+E X T<br>
+Enter the non-terminal whose first and follow you want to calculate:<br>
+E<br>
+📌 Sample Output<br>
+
 The First is:
-( T  ε  +
+( T  ε  +<br>
 The Follow is:
-) $
+) $<br>
 🔍 Functions Overview
+<br>
 🛠 first(char s, List<String> gr, char[] t, char[] nt, int te, int no_t)
 
 Recursively computes the First set of a non-terminal.
